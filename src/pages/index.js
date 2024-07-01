@@ -1,0 +1,6 @@
+export { default as Login } from "./Login";
+export { default as Home } from "./Home";
+export { default as Register } from "./Register";
+export { default as SingleProduct } from "./SingleProduct";
+export { default as Error } from "./Error";
+
