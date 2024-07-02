@@ -52,13 +52,11 @@ function App() {
       path: "/login",
       element: user ? <Navigate to="/" /> : <Login />,
       action: LoginAction,
-      errorElement: <Error />,
     },
     {
       path: "/register",
       element: user ? <Navigate to="/" /> : <Register />,
       action: RegisterAction,
-      errorElement: <Error />,
 
     },
   ]);
